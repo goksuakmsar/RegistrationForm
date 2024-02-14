@@ -1,0 +1,52 @@
+:root {
+  --blue: rgb(134, 182, 246);
+  --grey: rgb(245, 245, 245);
+  --green: rgb(23, 107, 135);
+  --hotpink: rgb(214, 52, 132);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+.form-container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.register-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 5px;
+  box-shadow: 0px 2px 30px rgb(0, 0, 0, 0.6);
+  padding: 30px;
+  background-color: white;
+}
+
+.form-field {
+  appearance: none;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: none;
+  padding: 20px;
+  background-color: var(--grey);
+}
+
+button.form-field {
+  scale: 0.9;
+  font-size: 20px;
+  color: white;
+  background-color: var(--green);
+}
